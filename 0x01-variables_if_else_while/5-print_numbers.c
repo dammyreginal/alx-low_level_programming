@@ -6,13 +6,13 @@
 */
 int main(void)
 {
-char c;
-for (c='0'; c<='9'; c++)
+char n;
+for (n='0'; n<='9'; n++)
 {
-putchar(c);
+putchar(n);
 }
 
-putchar('\c');
+putchar('\n');
   
 return(0);
 }
