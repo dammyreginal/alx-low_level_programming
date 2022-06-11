@@ -1,19 +1,23 @@
 #include <stdio.h>
+
 /**
-*main - prints some letters of alphabets
-* returns always 0
+* main - Prints some letters of alphabet
+*
+* Return: Always (Success)
 */
 int main(void)
 {
 char c;
-for (c='a'; c<='z'; c++)
+
+for (c = 'a'; c <= 'z'; c++)
 {
-if (c !='e' && c!='q')
+if (c != 'e' && c != 'q')
 {
 putchar(c);
 }
 }
-putchar('/n');
+
+putchar('\n');
 
 return (0);
 }
