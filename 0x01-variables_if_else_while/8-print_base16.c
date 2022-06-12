@@ -2,7 +2,7 @@
 /**
 *main - prints a hexadecimal string.
 *
-*Return Aways (0)
+*Return Always (0)
 */
 int main(void)
 { char c;
@@ -18,5 +18,5 @@ putchar(c);
 }
 putchar('\n');
 
-print (0);
+return (0);
 }
