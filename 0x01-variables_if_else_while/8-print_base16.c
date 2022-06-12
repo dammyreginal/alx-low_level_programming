@@ -3,7 +3,7 @@
 /**
 *main - prints a hexadecimal string.
 *
-*Return Always (0)
+*Return Always (success)
 */
 int main(void)
 {
