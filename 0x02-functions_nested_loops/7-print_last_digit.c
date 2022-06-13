@@ -2,7 +2,7 @@
 
 /**
 *print_last_digit -> prints last digit
-@n: the passed argument
+@n: the passed args
 *Return: the last digit
 */
 int print_last_digit(int n)
