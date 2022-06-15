@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int add(int, int)
+void times_table(void)
 {
     int n;
 
